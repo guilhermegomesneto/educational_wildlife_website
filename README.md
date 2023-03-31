@@ -1,1 +1,1 @@
-# wildlife_educational_website
+# Educational Wildlife Website
