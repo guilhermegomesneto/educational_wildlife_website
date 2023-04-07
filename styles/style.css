@@ -10,6 +10,7 @@
     --color-3: #efefef;
     --color-4: #000000;
     --color-5: #393f2d;
+    --color-6: #2f5c17;
 }
 
 body {
@@ -98,7 +99,30 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    padding: 5vw 0;
+    padding: 10vw 0;
+}
+
+.main-text {
+    width: 20vw;
+    opacity: 100%;
+}
+
+.main-text h1 {
+    color: var(--color-6);
+    font-family: 'Caudex', serif;
+    font-size: 2.45rem;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.main-text h2 {
+    color: var(--color-2);
+    font-family: 'Caudex', serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: justify;
+    line-height: normal;
 }
 
 .central-globe img {
@@ -107,29 +131,6 @@ main {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     width: 35vw;
-}
-
-.selection-biome-column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
-
-.selection-biome-column h3 {
-    color: var(--color-3);
-    font-family: 'Caudex', serif;
-    font-size: 1rem;
-    font-weight: bold;
-    opacity: 25%;
-}
-
-.selection-biome-column img {
-    width: 12vw;
-    border: 5px solid black;
-    border-radius: 50%;
-    box-shadow: 2px 2px 10px black;
-    opacity: 25%;
 }
 
 .section-title {
