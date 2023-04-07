@@ -178,6 +178,7 @@ main {
         border: 5px solid black;
         border-radius: 25%;
         box-shadow: 1px 1px 3px black;
+        transition: 0.5s transform;
     }
 
     .world-map img:hover {
@@ -197,6 +198,7 @@ main {
         border: 5px solid black;
         border-radius: 50%;
         box-shadow: 1px 1px 5px black;
+        transition: 0.5s transform;
     }
 
     .biome-info img:hover {
@@ -213,6 +215,7 @@ main {
         color: var(--color-3);
         padding-top: 1rem;
         text-align: justify;
+        line-height: normal;
     }
 
 /*Footer CSS*/
