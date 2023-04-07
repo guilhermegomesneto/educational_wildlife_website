@@ -93,20 +93,119 @@ main {
     background-color: var(--color-1);
 }
 
-.central_globe {
+.central-globe {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 10%;
 }
 
-.central_globe img {
+.central-globe img {
     animation-name: pulse;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     width: 35vw;
 }
+
+.section-title {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.section-title h1 {
+    color: var(--color-2);
+    font-family: 'Caudex', serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: var(--color-4);
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.section-subtitle h2 {
+    color: var(--color-2);
+    font-family: 'Caudex', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: var(--color-4);
+    border-radius: 20px;
+    padding: 8px;
+}
+
+    /* Biomes Page */
+
+    .biomes {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        padding: 2vw 0;
+    }
+
+    .world-map {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .world-map img {
+        width: 50vw;
+        border: 5px solid black;
+        border-radius: 25%;
+        box-shadow: 1px 1px 3px black;
+    }
+
+    .world-map img:hover {
+        transform: scale(1.75);
+        box-shadow: 5px 5px 15px black;
+    }
+
+    .selection-biome {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .selection-biome-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .selection-biome h3 {
+        color: var(--color-3);
+        font-family: 'Caudex', serif;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .selection-biome-column img {
+        width: 15vw;
+        border: 5px solid black;
+        border-radius: 50%;
+        box-shadow: 2px 2px 10px black;
+    }
+
+    .biome-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .biome-text {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .biome-text p {
+        color: var(--color-3);
+        padding-top: 1rem;
+        text-align: justify;
+    }
 
 /*Footer CSS*/
 
