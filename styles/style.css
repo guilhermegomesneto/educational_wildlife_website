@@ -28,7 +28,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5% 1%;
+    padding: 0.5vw 1vw;
 }
 
 .logo {
@@ -50,7 +50,6 @@ header {
     position: relative;
     display: inline-block;
 }
-
 
 .menu-button:hover {
     cursor: pointer;
@@ -104,7 +103,6 @@ main {
 
 .main-text {
     width: 20vw;
-    opacity: 100%;
 }
 
 .main-text h1 {
@@ -229,7 +227,7 @@ main {
 		display: flex;
 		flex-direction: column;
 		width: 60%;
-        margin: 2vw auto 0;
+        margin: 4vw auto 2vw;
         color: var(--color-3);
 	}
 
@@ -309,4 +307,235 @@ footer {
 
 .copy {
     font-size: 0.75rem;
+}
+
+/* Breakpoints */
+
+@media screen and (max-width: 480px) {
+
+    .header-content {
+        padding: 2% 1%;
+    }
+
+    .logo {
+        gap: 1vw;
+        font-size: 1.35rem;
+    }
+    
+    .logo img {
+        width: 12vw;
+    }
+    
+    .menu img {
+        width: 8vw;
+    }
+
+    .main-content {
+        flex-direction: column;
+        padding: 20vw 0;
+        gap: 15vw;
+    }
+
+    .main-text {
+        width: 80vw;
+    }
+    
+    .main-text h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .main-text h2 {
+        font-size: 1.35rem;
+        text-align: center;
+    }
+    
+    .central-globe img {
+        width: 80vw;
+    }
+
+    .section-title {
+        width: 75%;
+        margin: 0 auto;
+    }
+    
+    .section-title h1 {
+        font-size: 1.75rem;
+    }
+
+    .section-subtitle {
+        width: 75%;
+        margin: 0 auto;
+    }
+    
+    .section-subtitle h2 {
+        font-size: 1.45rem;
+    }
+
+    .world-map {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .world-map img {
+        width: 75vw;
+    }
+
+    .world-map img:hover {
+        transform: scale(1.1);
+        box-shadow: 5px 5px 15px black;
+    }
+
+    .biome-info img {
+        width: 30vw;
+        border: 2px solid black;
+    }
+
+    form {
+		width: 80%;
+	}
+
+    form label, form legend {
+		margin: 0 0 2rem;
+	}
+
+	.standard-input {
+		margin: 0 0 2rem;
+	}
+
+    .send {
+        margin: 2rem 0 0;
+		font-size: 0.75rem;
+	}
+
+    .subscribe {
+        padding: 2vw 0 6vw 0;
+    }
+
+    .footer-content {
+        padding: 2vw 0;
+    }
+
+    .footer-logo {
+        gap: 1vw;
+        font-size: 1.25rem;
+    }
+    
+    .footer-logo img {
+        width: 10vw;
+    }
+    
+    .copy {
+        font-size: 0.6rem;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 912px) {
+
+    .logo {
+        gap: 1vw;
+        font-size: 2.25rem;
+    }
+    
+    .logo img {
+        width: 10vw;
+    }
+    
+    .menu img {
+        width: 6vw;
+    }
+
+    .main-content {
+        flex-direction: column;
+        padding: 20vw 0;
+        gap: 15vw;
+    }
+
+    .main-content {
+        flex-direction: column;
+        padding: 20vw 0;
+        gap: 20vw;
+    }
+
+    .main-text {
+        width: 80vw;
+    }
+    
+    .main-text h1 {
+        font-size: 2.45rem;
+        text-align: center;
+    }
+    
+    .main-text h2 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    
+    .central-globe img {
+        width: 80vw;
+    }
+
+    .section-title {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .section-title h1 {
+        font-size: 2rem;
+    }
+
+    .biome-info img {
+        width: 20vw;
+        border: 3px solid black;
+    }
+
+    .biome-info img:hover {
+        transform: scale(2);
+    }
+
+    form {
+		width: 80%;
+	}
+
+    .footer-logo {
+        gap: 0.5vw;
+        font-size: 2rem;
+    }
+    
+    .footer-logo img {
+        width: 8.5vw;
+    }
+    
+    .copy {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 913px) and (max-width: 1679px) {
+
+    .main-content {
+        justify-content: center;
+        padding: 15vw 0;
+        gap: 3vw;
+    }
+
+    .main-text {
+        width: 25vw;
+    }
+    
+    .main-text h1 {
+        font-size: 2.1rem;
+    }
+    
+    .main-text h2 {
+        font-size: 1.25rem;
+    }
+
+    .section-title {
+        width: 30%;
+        margin: 0 auto;
+    }
+
 }
