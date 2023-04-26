@@ -283,7 +283,7 @@ main {
 		display: flex;
 		flex-direction: column;
 		width: 60%;
-        margin: 4vw auto 2vw;
+        margin: 4vw auto 3vw;
         color: var(--color-3);
 	}
 
@@ -314,7 +314,7 @@ main {
 
 	.send {
 		width: 100%;
-        margin: 1rem 0 0;
+        margin: 5rem 0 0;
 		padding: 10px 0;
 		background: var(--color-5);
 		color: var(--color-3);
@@ -443,6 +443,14 @@ footer {
     
     .section-subtitle h2 {
         font-size: 1.45rem;
+    }
+
+    .issues-img {
+        width: 75%;
+    }
+
+    .issues-img img {
+        width: 75vw;
     }
 
     .world-map {
